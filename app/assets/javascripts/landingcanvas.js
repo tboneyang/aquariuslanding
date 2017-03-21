@@ -10,6 +10,8 @@ var ready = function() {
 	$( ".last" ).delay( 100 ).fadeIn( 2500 );
 
 ///
+
+    /*
 	var WIDTH = window.innerWidth,
     HEIGHT = window.innerHeight,
     MAX_PARTICLES = 100,
@@ -104,6 +106,8 @@ function draw() {
 setInterval(draw, DRAW_INTERVAL);
 
 ////
+
+*/
 
 });
 };

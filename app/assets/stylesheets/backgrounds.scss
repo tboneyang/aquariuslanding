@@ -1,0 +1,42 @@
+.gradient{
+	background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	height:100vh;
+	color:white;
+	cursor:auto;
+}
+
+.gradient h1{
+	margin-top:0px;
+	font-size:3em;
+}
+.gradient p{
+	cursor:pointer;
+	color:white;
+}
+
+.vcenter{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin:0;
+  padding:0;
+}
+
+.vcenter a{
+	color:white;
+	font-size:1em;
+}
+
+.vcenter a:visited{
+	color:white;
+}
+
+.vcenter a:hover{
+	background:none;
+	text-decoration:underline;
+}
+
+.gridhere{
+	background:none;
+	position:absolute;
+}

@@ -29,11 +29,13 @@
 
 .vcenter a:visited{
 	color:white;
+	text-decoration:none;
 }
 
 .vcenter a:hover{
 	background:none;
 	text-decoration:underline;
+	color:white;
 }
 
 .gridhere{
@@ -74,4 +76,8 @@
 
 .softwareportf{
 	filter:grayscale(60%);
+}
+
+a:visited{
+	text-decoration:none;
 }

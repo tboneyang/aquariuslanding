@@ -1,0 +1,202 @@
+/* line 1, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.gradient {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  height: 100vh;
+  color: white;
+  cursor: auto;
+}
+
+/* line 8, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.gradient h1 {
+  margin-top: 0px;
+  font-size: 3em;
+}
+
+/* line 12, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.gradient p {
+  cursor: pointer;
+  color: white;
+}
+
+/* line 17, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+}
+
+/* line 25, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.vcenter a {
+  color: white;
+  font-size: 1em;
+}
+
+/* line 30, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.vcenter a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 35, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.vcenter a:hover {
+  background: none;
+  text-decoration: underline;
+  color: white;
+}
+
+/* line 41, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.gridhere {
+  background: none;
+  position: absolute;
+}
+
+/* line 46, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.outerlayer {
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+  background: none !important;
+  border: 1px solid black;
+}
+
+/* line 54, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.overridesoft {
+  position: absolute !important;
+  width: 100%;
+  height: 500px;
+  background: none !important;
+}
+
+/* line 61, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.bloqs {
+  width: 100% !important;
+}
+
+/* line 65, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.bloqs a:hover {
+  background: none;
+}
+
+/* line 68, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.bloqs a:visited {
+  background: none;
+}
+
+/* line 72, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.portf {
+  width: 100%;
+  height: 100px;
+}
+
+/* line 77, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+.softwareportf {
+  filter: grayscale(60%);
+}
+
+/* line 81, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/backgrounds.scss */
+a:visited {
+  text-decoration: none;
+}
+/* line 2, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/birds.scss */
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  overflow: hidden;
+  font-family: Monospace;
+  font-size: 13px;
+  text-align: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 12, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/birds.scss */
+a {
+  color: #0078ff;
+}
+
+/* line 15, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/birds.scss */
+#info {
+  color: #000;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  display: none;
+}
+
+/* line 23, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/birds.scss */
+.dg, .bloqed {
+  display: none !important;
+}
+/* line 5, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/landing.scss */
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* line 8, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/landing.scss */
+html {
+  margin-top: 0;
+}
+/* line 1, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 23, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 27, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 34, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 39, /Users/Tom/Documents/web projects/aquariuslanding/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

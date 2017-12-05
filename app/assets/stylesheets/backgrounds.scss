@@ -40,3 +40,38 @@
 	background:none;
 	position:absolute;
 }
+
+.outerlayer{
+	position:relative;
+	width:80%;
+	margin:20px auto;
+	background:none !important;
+	border:1px solid black;
+}
+
+.overridesoft{
+	position:absolute !important;
+	width: 100%;
+	height: 500px;
+	background:none !important;
+}
+
+.bloqs{
+	width:100% !important;
+}
+
+.bloqs a:hover{
+	background:none;
+}
+.bloqs a:visited{
+	background:none;
+}
+
+.portf{
+	width:100%;
+	height:100px;
+}
+
+.softwareportf{
+	filter:grayscale(60%);
+}

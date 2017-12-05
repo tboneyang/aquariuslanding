@@ -1,1 +1,138 @@
-software.html
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin:0 !important;
+}
+
+.column img {
+    margin-top: 12px;
+}
+.column img:hover{
+  filter:grayscale(100%);
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.image-container {
+    position: relative;
+}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    text-align: left;
+    padding-top:20px;
+    padding-left:20px;
+    font-size:1em;
+}
+.image-container:hover .after {
+  text-decoration:underline;
+}
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+
+<div class="row softwareportf"> 
+  <div class="column">
+
+    <div class="image-container">
+    <a href="http://www.mercurycsc.com/">
+    <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+    </a>
+    <div class="after">MercuryCSC - Bozeman, MT</div>
+    </div>
+    
+  </div>
+  <div class="column">
+    <div class="image-container">
+    <a href="https://evening-woodland-13114.herokuapp.com/">
+    <img src="/assets/woodland.png" style="width:100%">
+    </a>
+    <div class="after">Realtime eCommerce - Remote</div>
+    </div>
+    <div class="image-container">
+    <a href="https://www.newfangled.com/">
+    <img src="http://blogs.lib.unc.edu/morton/wp-content/uploads/2010/06/P081_PTCM2_014950_03.jpg" style="width:100%">
+    </a>
+    <div class="after">Newfangled - Chapel Hill, NC</div>
+    </div>
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <div class="image-container">
+    <a href="https://madglory.com/">
+    <img src="http://horsefund.org/resources/todays_equine_horse_racing.jpg.opt790x586o0%2C0s790x586.jpg" style="width:100%">
+    </a>
+    <div class="after">Madglory - Saratoga, NY</div>
+    </div>
+
+    <div class="image-container">
+    <a href="http://championselect.net/">
+    <img src="http://ift.tt/2z2wjFz" style="width:100%">
+    </a>
+    <div class="after">Lol Esports - Remote</div>
+    </div>
+
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <div class="image-container">
+    <a href="http://tsm.gg/">
+    <img src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/LolGameInfo-Harbinger/en_US/71aa23b0dc44d4ea0b38fd5cd3b0add12f93026b/assets/assets/images/gi-landing-top.jpg" style="width:100%">
+    </a>
+    <div class="after">Team Solo Mid - Los Angeles, CA</div>
+    </div>
+
+    <div class="image-container">
+    <a href="http://na.op.gg/">
+    <img src="http://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/south-korea/Seoul-night-aerial-xlarge.jpg" style="width:100%">
+    </a>
+    <div class="after">OP.GG - Seoul, South KR</div>
+    </div>
+  </div>
+</div>
+
+</body>

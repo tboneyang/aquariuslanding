@@ -6,9 +6,8 @@ Rails.application.routes.draw do
    root 'landing#home'
 
    get '/blog', to: 'landing#portfolio'
-   get '/software', to: 'landing#birds'
-   get '/fitness', to: 'landing#fitness'
-
+   get '/software', to: 'landing#software'
+   get '/fitness', to: 'landing#birds'
 
    resources :blogs do
    end
